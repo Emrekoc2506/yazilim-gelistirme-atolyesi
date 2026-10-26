@@ -1,69 +1,77 @@
-# Software Development Fundamentals 🚀
-### Academic & Training Exercises - Technical Portfolio
+Yazılım Geliştirme Esasları 🚀
+Akademik ve Eğitici Egzersizler - Teknik Portföy
+Öğrenme ve uygulama alanıma hoş geldiniz! Bu depo (repository), bilgisayar programcılığı eğitimim ve kişisel gelişim yolculuğum boyunca geliştirdiğim kaynak kodların, egzersizlerin ve küçük çaplı uygulamaların yapılandırılmış bir koleksiyonunu barındırmaktadır.
 
-Welcome to my learning and practice sandbox! This repository houses a structured collection of source code, exercises, and mini-applications that I developed during my computer programming education and self-improvement journey. 
+Temel yazılım mühendisliği kavramlarını, veritabanı yönetimini ve web geliştirme teknolojilerini kapsamaktadır.
 
-It covers fundamental software engineering concepts, database management, and web development technologies.
+[!NOTE]
+💡 Akademik Dürüstlük ve Geliştirme Notu
+Bu depodaki tüm kodlar, algoritmalar ve egzersizler yazılım mantığını, sentaks yapısını ve problem çözme becerilerini sıfırdan öğrenmek amacıyla tamamen elle (manuel olarak) yazılmıştır. Geliştirme sürecinde yapay zeka araçları kullanılmamış olup, tamamen akademik ve kişisel eğitim amaçlıdır.
 
-> [!NOTE]
-> **💡 Academic Integrity & Development Note / Akademik Dürüstlük ve Geliştirme Notu**
-> All codes, logic, and exercises in this repository have been written **completely by hand** for educational and research purposes. None of the codes were generated using AI assistants. The goal was to fully grasp programming logic, syntax structure, and algorithms step-by-step.
-> 
-> *Bu depodaki tüm kodlar, algoritmalar ve egzersizler yazılım mantığını, sentaks yapısını ve problem çözme becerilerini sıfırdan öğrenmek amacıyla **tamamen elle (manuel olarak)** yazılmıştır. Geliştirme sürecinde yapay zeka araçları kullanılmamış olup, tamamen akademik ve kişisel eğitim amaçlıdır.*
+📂 Depo Yapısı
+Bu depo, teknik becerilerimin yol haritasını sergilemek amacıyla teknoloji katmanlarına göre organize edilmiştir:
 
----
+1. ⚙️ C# Programlama (/csharp-programming)
+Nesne Yönelimli Programlama (OOP) prensiplerine, algoritmalara ve masaüstü uygulama geliştirmeye odaklanır.
 
-## 📂 Repository Structure
+Konsol Uygulamaları: Değişkenler, operatörler, döngüler, diziler ve kontrol yapıları için pratik kodları.
 
-The repository is organized by technology layers to showcase the roadmap of my technical skills:
+Algoritmalar: Temel matematiksel hesaplamalar, tek/çift sayı doğrulamaları.
 
-### 1. ⚙️ C# Programming (`/csharp-programming`)
-Focuses on Object-Oriented Programming (OOP) principles, algorithms, and desktop application development.
-- **Console Applications:** Practice code for variables, operators, loops, arrays, and control structures.
-- **Algorithms:** Basic mathematical calculations, single/double number validations.
-- **Desktop UI Development (WinForms):** Simple Calculator, Tic-Tac-Toe Game (XOX), and custom Windows Forms applications.
+Masaüstü Arayüz Geliştirme (WinForms): Basit Hesap Makinesi, Tic-Tac-Toe Oyunu (XOX) ve özel Windows Forms uygulamaları.
 
-### 2. ⚡ JavaScript Fundamentals (`/javascript-fundamentals`)
-Covers the core concepts of ES6+ scripting, data manipulation, and client-side logic.
-- **Core Concepts:** Conditionals (if-else, switch-case), loops (for, while, do-while), arrays, and built-in objects (Math, Date).
-- **Algorithm Implementations:** Fibonacci sequence, Armstrong numbers, prime number check, and base conversion (decimal to binary).
-- **DOM & API Interactions:** InnerHTML methods, dynamic element updates, and debug setups.
-- **Mini Applications:** Simple product search and book finding systems.
+2. ⚡ JavaScript Temelleri (/javascript-fundamentals)
+ES6+ betik dili, veri işleme ve istemci tarafı mantığının temel kavramlarını kapsar.
 
-### 3. ⚛️ React Learning Path (`/react-learning-path`)
-Demonstrates modern front-end library concepts, component lifecycle, and state management.
-- **State Management:** Core hooks like `useState`, `useEffect`, and custom hook creation.
-- **Data Integration:** API integrations, dynamic table components, forms rendering, and validation.
-- **Mini Projects:** Fully functional Task Management (Todo) applications, clock widget, and modular component structures.
+Temel Kavramlar: Koşullu ifadeler (if-else, switch-case), döngüler (for, while, do-while), diziler ve yerleşik nesneler (Math, Date).
 
-### 4. 🗄️ SQL & Database Exercises (`/sql-database-exercises`)
-Contains database query practices, optimization steps, and stored routines.
-- **SQL Commands:** SELECT, FROM, JOIN operations, sorting, and pagination (LIMIT, OFFSET).
-- **Filtering Operators:** WHERE clauses, LIKE pattern matching, IN lists, and BETWEEN ranges.
-- **PostgreSQL Focus:** Stored procedures, triggers, and custom PostgreSQL database functions.
+Algoritma Uygulamaları: Fibonacci dizisi, Armstrong sayıları, asal sayı kontrolü ve taban dönüştürme (10'luk tabandan 2'lik tabana).
 
-### 5. 🎨 Web Design Basics (`/web-design-basics`)
-Covers user interface basics, layout styling, and responsiveness structures.
-- **HTML Basics (`/html-basics`):** Lists, forms, table structures, and page media (audio/video) integration.
-- **CSS Basics (`/css-basics`):** CSS box model (margins, paddings), selectors (ID & class), border-radius, and background styles.
-- **Bootstrap Basics (`/bootstrap-basics`):** Responsive grid systems, buttons, navigation bars, and bootstrap assets integration.
+DOM & API Etkileşimleri: InnerHTML yöntemleri, dinamik eleman güncellemeleri ve hata ayıklama (debug) yapılandırmaları.
 
----
+Minik Uygulamalar: Basit ürün arama ve kitap bulma sistemleri.
 
-## 🛠️ Tech Stack & Badges
+3. ⚛️ React Öğrenme Yol haritası (/react-learning-path)
+Modern ön yüz (front-end) kütüphane kavramlarını, bileşen yaşam döngüsünü (component lifecycle) ve durum yönetimini (state management) gösterir.
 
-- **Languages:** C#, JavaScript (ES6+), SQL, HTML5, CSS3
-- **Frameworks/Libraries:** React, .NET Core, WinForms, Bootstrap, Tailwind CSS
-- **Databases:** PostgreSQL, Microsoft SQL Server
+Durum Yönetimi (State Management): useState, useEffect gibi temel hook'lar ve özel (custom) hook oluşturma.
 
----
+Veri Entegrasyonu: API entegrasyonları, dinamik tablo bileşenleri, form oluşturma ve doğrulama.
 
-## 📈 Learning Outcomes & Methodology
+Minik Projeler: Tam fonksiyonel Görev Yönetimi (Todo) uygulamaları, saat bileşeni (widget) ve modüler bileşen yapıları.
 
-This repository is built using clean code guidelines:
-1. **Readable Code:** Proper naming conventions and commented logic explanations.
-2. **Modular Structure:** Breaking down exercises into standalone executable files.
-3. **Problem Solving:** Step-by-step algorithms solving logic problems.
+4. 🗄️ SQL ve Veritabanı Egzersizleri (/sql-database-exercises)
+Veritabanı sorgu pratiklerini, optimizasyon adımlarını ve saklı yordamları (stored routines) içerir.
 
----
-*Created and maintained by [Mustafa Emre Koç](https://github.com/Emrekoc2506)*
+SQL Komutları: SELECT, FROM, JOIN işlemleri, sıralama ve sayfalama (LIMIT, OFFSET).
+
+Filtreleme Operatörleri: WHERE yan cümlecikleri, LIKE desen eşleme, IN listeleri ve BETWEEN aralıkları.
+
+PostgreSQL Odaklı: Saklı prosedürler (stored procedures), tetikleyiciler (triggers) ve özel PostgreSQL veritabanı fonksiyonları.
+
+5. 🎨 Web Tasarım Temelleri (/web-design-basics)
+Kullanıcı arayüzü temellerini, düzen stillerini ve esnek (responsive) tasarım yapılarını kapsar.
+
+HTML Temelleri (/html-basics): Listeler, formlar, tablo yapıları ve sayfa medya (ses/video) entegrasyonu.
+
+CSS Temelleri (/css-basics): CSS kutu modeli (margin, padding), seçiciler (ID ve class), border-radius ve arka plan stilleri.
+
+Bootstrap Temelleri (/bootstrap-basics): Duyarlı (responsive) ızgara (grid) sistemleri, butonlar, navigasyon çubukları ve bootstrap bileşen entegrasyonu.
+
+🛠️ Kullanılan Teknolojiler
+Diller: C#, JavaScript (ES6+), SQL, HTML5, CSS3
+
+Çerçeveler / Kütüphaneler: React, .NET Core, WinForms, Bootstrap, Tailwind CSS
+
+Veritabanları: PostgreSQL, Microsoft SQL Server
+
+📈 Öğrenme Çıktıları ve Metodoloji
+Bu depo, temiz kod (clean code) ilkelerine uygun olarak oluşturulmuştur:
+
+Okunabilir Kod: Doğru isimlendirme standartları ve yorum satırlarıyla açıklanmış kod mantığı.
+
+Modüler Yapı: Egzersizlerin bağımsız çalıştırılabilir dosyalara bölünmesi.
+
+Problem Çözme: Mantık problemlerini çözen adım adım algoritmalar.
+
+Geliştirici ve Yöneticisi: Mustafa Emre Koç
