@@ -1,4 +1,4 @@
-# 🚀 Software Development Fundamentals
+# 🚀 Yazilim-Gelistirme-Atolyesi
 ### Akademik ve Eğitici Egzersizler - Teknik Portföy
 
 Öğrenme ve uygulama alanımıza hoş geldiniz! Bu depo, bilgisayar programcılığı eğitimim ve kişisel gelişim yolculuğum boyunca geliştirdiğim kaynak kodların, egzersizlerin ve küçük çaplı uygulamaların yapılandırılmış bir koleksiyonunu barındırmaktadır.
