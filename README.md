@@ -23,7 +23,7 @@ Nesne Yönelimli Programlama (OOP) prensiplerine, algoritmalara ve masaüstü uy
 * **Algoritmalar:** Temel matematiksel hesaplamalar ve mantıksal doğrulamalar.
 * **Masaüstü Arayüz (WinForms):** Hesap Makinesi, XOX (Tic-Tac-Toe) Oyunu ve özel form uygulamaları.
 
-### 2. ⚡ JavaScript Temelleri (`/javascript-fundamentals`)
+### 2. ⚡ Sıfırdan İleri Düzey JavaScript (`/javascript-fundamentals`)
 ES6+ betik dili, veri işleme ve istemci tarafı mantığının temel kavramları.
 * **Core Concepts:** Koşullu ifadeler, döngüler, diziler ve yerleşik nesneler (Math, Date).
 * **Algoritma Uygulamaları:** Fibonacci, Armstrong sayıları, asal sayı kontrolü ve taban dönüşümleri.
